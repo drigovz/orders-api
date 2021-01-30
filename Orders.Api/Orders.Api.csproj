@@ -4,4 +4,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Orders.Domain\Orders.Domain.csproj" />
+    <ProjectReference Include="..\Orders.Interfaces\Orders.Interface.csproj" />
+    <ProjectReference Include="..\Orders.Repository\Orders.Repository.csproj" />
+  </ItemGroup>
+
 </Project>

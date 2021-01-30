@@ -6,4 +6,12 @@
     <AssemblyName>Orders.Interface</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Orders.Domain\Orders.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
